@@ -1,0 +1,83 @@
+.PermitCard {
+  max-width: 980px;
+  width: 100%;
+  margin: 40px auto;
+  padding: 20px;
+  background: #FFFFFF;
+  border: 1px solid #EAEAEA;
+  border-radius: 8px;
+}
+
+.PermitCard__Title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.PermitCard__SummaryTitle {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.PermitCard__Info {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.PermitCard__SectionInfo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.PermitCard__SectionTitle {
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.PermitCard__Field {
+  font-size: 14px;
+  margin-bottom: 5px;
+  display: flex;
+}
+
+.PermitCard__FieldName {
+  font-weight: 600;
+  margin-right: 5px;
+  color: #212121;
+}
+
+.PermitCard__Button {
+  padding: 10px;
+  width: 30%;
+  margin-bottom: 20px;
+  background: #107BC0;
+  color: #FFFFFF;
+  font-weight: 800;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.PermitCard__Button:hover {
+  opacity: 0.8;
+  color: #FFFFFF;
+}
+
+
+@media (max-width: 480px) {
+  .PermitCard__Info {
+    flex-direction: column;
+  }
+
+  .PermitCard__SectionInfo {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .PermitCard__Button {
+    width: 100%;
+  }
+}

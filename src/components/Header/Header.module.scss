@@ -1,0 +1,29 @@
+.Header {
+  border-bottom: 5px solid rgba(16,123,192,0.5);
+
+  h1 {
+    margin: 0;
+    color: #107BC0;
+    padding: 25px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 768px) {
+  .Header {
+    h1 {
+      font-size: 40px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .Header {
+    h1 {
+      font-size: 25px;
+    }
+  }
+}

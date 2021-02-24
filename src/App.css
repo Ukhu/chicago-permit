@@ -1,7 +1,9 @@
 .App {
-  text-align: center;
+  height: 100%;
+  background: #FCFCFC;
 }
 
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,4 +38,4 @@
   100% {
     transform: translateY(0px)
   }
-}
+} */
